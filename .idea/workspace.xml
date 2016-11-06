@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f1e5fe-086c-48b5-a1b6-fb229d4c7a6a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DBHelper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitlyhelper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mockdbhelper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/passwordhelper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/styles.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create_mongo_indices.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waitercaller.py" afterPath="$PROJECT_DIR$/waitercaller.py" />
     </list>
     <ignored path="waitercaller.iws" />
@@ -49,8 +38,8 @@
       <file leaf-file-name="waitercaller.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/waitercaller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="101" column="79" selection-start-line="101" selection-start-column="79" selection-end-line="101" selection-end-column="79" />
+            <state relative-caret-position="240">
+              <caret line="123" column="34" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -58,11 +47,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="create_mongo_indices.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_mongo_indices.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="dbhelper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dbhelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="236">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -90,16 +89,6 @@
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mockdbhelper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mockdbhelper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="99" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -179,6 +168,8 @@
         <option value="$PROJECT_DIR$/templates/account.html" />
         <option value="$PROJECT_DIR$/forms.py" />
         <option value="$PROJECT_DIR$/DBHelper.py" />
+        <option value="$PROJECT_DIR$/create_mongo_indices.py" />
+        <option value="$PROJECT_DIR$/dbhelper.py" />
         <option value="$PROJECT_DIR$/waitercaller.py" />
       </list>
     </option>
@@ -193,7 +184,7 @@
     <option name="x" value="52" />
     <option name="y" value="28" />
     <option name="width" value="1359" />
-    <option name="height" value="490" />
+    <option name="height" value="432" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -235,20 +226,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="waitercaller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="waitercaller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="waitercaller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,7 +477,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="28" width="1359" height="490" extended-state="0" />
+    <frame x="52" y="28" width="1359" height="432" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32422173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -741,10 +718,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/create_mongo_indices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dbhelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="236">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
@@ -753,8 +738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/waitercaller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="101" column="79" selection-start-line="101" selection-start-column="79" selection-end-line="101" selection-end-column="79" />
+        <state relative-caret-position="240">
+          <caret line="123" column="34" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
